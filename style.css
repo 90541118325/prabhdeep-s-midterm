@@ -1,0 +1,34 @@
+/* background color change animation*/
+@keyframes changeBackgroundColor {
+    100% { background-color: #EA7A11; }
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    animation: changeBackgroundColor 3s infinite; 
+  }
+
+/* Navigation bar Style */
+.w3_navigation {
+    background-color: #333;
+    color: #fff;
+}
+
+/* banner styles */
+.w3ls-banner {
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-bottom {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Card styles */
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
